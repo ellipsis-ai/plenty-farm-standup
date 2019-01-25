@@ -1,7 +1,7 @@
 {
-  "name" : "Farm Standup",
+  "name" : "Standup",
   "exportId" : "nlRdbmDGTgiwjz_WI040xA",
-  "icon" : "📣",
+  "icon" : "🕴",
   "requiredAWSConfigs" : [ ],
   "requiredOAuthApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]

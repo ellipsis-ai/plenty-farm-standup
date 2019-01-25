@@ -1,0 +1,8 @@
+{
+  "exportId" : "E-KWn00hQLePO5DNRPrjXA",
+  "name" : "Check standup status",
+  "responseTypeId" : "Normal",
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
+}
