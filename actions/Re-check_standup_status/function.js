@@ -4,9 +4,9 @@ const api = new EllipsisApi(ellipsis).actions;
 const ActionLogs = require('action-logs')(ellipsis);
 const moment = require('moment-timezone');
 const RandomResponse = require('ellipsis-random-response');
-const greeting = RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone);
+const greeting = RandomResponse.greetingForTimeZone(ellipsis.team.timeZone);
 
-const userId = ellipsis.ellipsisUserId;
+const userId = ellipsis.event.user.ellipsisUserId;
 
 ActionLogs.logsFor('Check standup status', null, null, userId, 'scheduled').then(allQuestionLogs => {
   const questionLogs = ActionLogs.mostRecentPerUserInChannel(allQuestionLogs, channel);

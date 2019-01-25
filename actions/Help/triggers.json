@@ -1,7 +1,1 @@
-[ {
-  "text" : "standup help",
-  "requiresMention" : true,
-  "isRegex" : false,
-  "caseSensitive" : false,
-  "triggerType" : "MessageSent"
-} ]
+[ ]

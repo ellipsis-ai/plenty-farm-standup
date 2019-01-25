@@ -1,11 +1,11 @@
 [ {
-  "text" : "standup status",
+  "text" : "farm standup status",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false,
   "triggerType" : "MessageSent"
 }, {
-  "text" : "standup status for {channel}",
+  "text" : "farm standup status for {channel}",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false,

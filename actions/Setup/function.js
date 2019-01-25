@@ -10,7 +10,7 @@ function unscheduleAction(actionName) {
 }
 
 function scheduleAction(actionName, timeOfDay, useDM) {
-  const recurrence = `every weekday at ${timeOfDay}`;
+  const recurrence = `${timeOfDay}`;
   return api.schedule({
     actionName: actionName,
     args: [{ name: "channel", value: channel }],
