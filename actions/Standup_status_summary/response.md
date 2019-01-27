@@ -7,8 +7,8 @@ Here’s where everyone’s at this week:
 
 **<@{userResult.user}> responded at {userResult.when}:** 
 
-**3 wins:** {userResult.wins}  
-**3 blockers:** {userResult.blockers}  
+**Wins:** {userResult.wins}  
+**Blockers:** {userResult.blockers}  
 **Suggested improvements:** {userResult.improvements}  
 **How to solve blockers:** {userResult.solutions}  
 

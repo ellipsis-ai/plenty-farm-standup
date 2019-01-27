@@ -65,7 +65,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What are 3 blockers you've run into this week?",
+  "question" : "What are some of your blockers?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -105,7 +105,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What are 3 wins for the week?",
+  "question" : "What are some of your wins from this week?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 } ]
