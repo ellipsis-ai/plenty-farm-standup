@@ -21,10 +21,10 @@ ActionLogs.logsFor('Check standup status', null, null, null, 'scheduled').then(a
     const answeredResults = results.map(ea => {
       return {
         user: ea.user,
-        wins: (ea.wins ? ea.wins : NO_RESPONSE),
-        blockers: (ea.blockers ? ea.blockers : NO_RESPONSE),
-        improvements: (ea.improvements ? ea.improvements : NO_RESPONSE),
-        solutions: (ea.solutions ? ea.solutions : NO_RESPONSE),
+        q1: (ea.q1 ? ea.q1 : NO_RESPONSE),
+        q2: (ea.q2 ? ea.q2 : NO_RESPONSE),
+        q3: (ea.q3 ? ea.q3 : NO_RESPONSE),
+        q4: (ea.q4 ? ea.q4 : NO_RESPONSE),
         when: whenFor(ea.timestamp)
       };
     });

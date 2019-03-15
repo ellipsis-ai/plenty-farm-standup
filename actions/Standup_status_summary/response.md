@@ -7,10 +7,9 @@ Here’s where everyone’s at this week:
 
 **<@{userResult.user}> responded at {userResult.when}:** 
 
-**Wins:** {userResult.wins}  
-**Blockers:** {userResult.blockers}  
-**Suggested improvements:** {userResult.improvements}  
-**How to solve blockers:** {userResult.solutions}  
+**Win/blocker:** {userResult.q1}  
+**What’s taking time:** {userResult.q2}  
+**Anything else?:** {userResult.q3}  
 
 {endfor}
 
@@ -21,7 +20,7 @@ I'm missing responses from the following people:
 **<@{slacker}>**
 {endfor}
 
-No big deal! You can still add one now by typing `/dm @{ellipsis.team.botName} farm standup checkin for {channel}`.
+You can still add one now by typing `/dm @{ellipsis.team.botName} farm standup checkin for {channel}`.
 Once you are done you can type `@{ellipsis.team.botName} farm standup status for {channel}` here to have an updated summary posted.
 {else}
 Everyone accounted for. Nicely done.
