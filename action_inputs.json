@@ -69,6 +69,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "VqcONjD2T3W8Hm7ZsgnhDg",
+  "name" : "whenToRemind",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I remind each person about their status if they haven't answered? (e.g. \"every Thursday at 4pm\" or say \"never\")",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "Xa_v_30vTVuvtWjKRT191Q",
   "name" : "channel",
   "paramType" : {
@@ -85,7 +95,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "When should I display everyone's status for others to see? (e.g. \"every Thursday at 9:55am\" if the meeting is at 10am)",
+  "question" : "When should I display everyone's status for others to see? (e.g. \"every Friday at 9am\" if the meeting is at 10am)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
