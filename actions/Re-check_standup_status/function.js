@@ -17,12 +17,16 @@ ActionLogs.logsFor('Check standup status', null, null, userId, 'scheduled').then
       if (answerLogs.length) {
         ellipsis.noResponse(); // already answered
       } else {
-        api.say({ message: greeting }).then(response => {
-          api.say({message: `Just checking in again with standup questions for ${channel}` }).then(response => {
-            const name = "Answer status questions";
-            const args = [{ name: "channel", value: channel }];
-            api.run({ actionName: name, args: args }).then(response => ellipsis.noResponse());
-          });
+        const args = [{ name: "channel", value: channel }];
+        const response = `
+${greeting}
+Just checking in again with standup questions for ${channel}. Click the button when you’re ready to answer.`;
+        ellipsis.success(response, {
+          choices: [{
+            label: "Answer now",
+            actionName: "Answer status questions",
+            args: args
+          }]
         });
       }
     });
